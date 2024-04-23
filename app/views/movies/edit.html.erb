@@ -1,0 +1,15 @@
+<h1>Editing: <%= @movie.title %></h1>
+
+<%=form_tag movie_path, :method => :delete, :class => 'form' do %>
+  <%= submit_tag 'DELETE' %>
+<% end %>
+
+<%= form_tag movie_path, :method => :patch, :class => 'form' do %>
+  <%= label :movie, :title, 'Title', :class => 'form-control' %>
+  <%= text_field :movie, :title, :class => 'form-control' %>
+  <%= label :movie, :rating, 'Rating', :class => 'form-control' %>
+  <%= select :movie, :rating, %w[G PG PG-13 R NC-17], :class => 'form-control' %>
+  <%= label :movie, :release_date, 'Released On' %>
+  <%= date_select :movie, :release_date, :class => 'form-control' %>
+  <%= submit_tag 'Save Changes' %>
+<% end %>
