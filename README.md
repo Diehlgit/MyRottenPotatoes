@@ -1,5 +1,5 @@
-# README
 
+<<<<<<< HEAD
 Trabalho de Engenharia de Software 
 
 Arthur Diehl Barroso - 221029991
@@ -29,3 +29,5 @@ Arquivos trabalhados:
 
 Cada um dos arquivos possui comentários e/ou um README 
 para explicá-los em conjunto. 
+=======
+>>>>>>> refs/remotes/origin/main
