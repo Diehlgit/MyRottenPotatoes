@@ -1,9 +1,10 @@
 <h1>Editing: <%= @movie.title %></h1>
-
+<%#implementação na view de um botão para usar a função destroy%>
 <%=form_tag movie_path, :method => :delete, :class => 'form' do %>
   <%= submit_tag 'DELETE' %>
 <% end %>
 
+<%#implentação na view do campo para usar a função update%>
 <%= form_tag movie_path, :method => :patch, :class => 'form' do %>
   <%= label :movie, :title, 'Title', :class => 'form-control' %>
   <%= text_field :movie, :title, :class => 'form-control' %>

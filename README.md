@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Trabalho de Engenharia de Software 
 
-Things you may want to cover:
+Arthur Diehl Barroso - 221029991
 
-* Ruby version
+221029991@aluno.unb.br / arthurdiehlbarroso@gmail.com
 
-* System dependencies
+Projeto MyRottenPotatoes seguindo o Capítulo 4 do livro
+Engineering Software as a Service 2.0
 
-* Configuration
+Arquivos trabalhados:
 
-* Database creation
+    em myrottenpotatoes/db
+        /migrate
+        schema.rb
+        seeds.rb
+ 
+    Definição das Routes em myrottenpotatoes/config/routes.rb 
 
-* Database initialization
+    Controllers e Views:
+        em myrottenpotatoes/app/controllers/movies_controller.rb
+        em myrottenpotatoes/app/views/
+            application.html.erb
+            edit.html.erb
+            index.html.erb
+            new.html.erb
+            show.html.erb
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Cada um dos arquivos possui comentários e/ou um README 
+para explicá-los em conjunto. 
