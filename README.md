@@ -29,5 +29,5 @@ Arquivos trabalhados:
 
 Cada um dos arquivos possui comentários e/ou um README 
 para explicá-los em conjunto. 
-=======
+
 >>>>>>> refs/remotes/origin/main
